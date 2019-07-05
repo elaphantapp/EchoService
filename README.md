@@ -21,11 +21,11 @@ If there is build success, Then the package echo.service.api-0.0.1.jar will be i
 
 ## Run
 
-Copy did.chain.service-0.0.1.jar to your deploy directory.
+Copy echo.service.api-0.0.1.jar to your deploy directory.
 then use jar command to run this spring boot application.
 
 ```shell
-$uname java -jar did.chain.agent-0.0.1.jar
+$uname java -jar echo.service.api-0.0.1.jar
 ```
 
 ## Usage
