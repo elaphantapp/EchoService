@@ -32,7 +32,7 @@ $uname java -jar echo.service.api-0.0.1.jar
 ### Save callback data for 1hour 
 ```yaml
 HTTP: POST
-URL: /api/1/ela_echo/{app_id}/{key}
+URL: /api/1/ela_echo/{app_id}/{traceid}
 HEADERS:
     Content-Type: application/json
 data: post data
@@ -46,7 +46,7 @@ return:
 ### Get callback data
 ```yaml
 HTTP: GET
-URL: /api/1/ela_echo/{app_id}/{key}
+URL: /api/1/ela_echo/{app_id}/{traceid}
 HEADERS:
     Content-Type: application/json
 data: post data
